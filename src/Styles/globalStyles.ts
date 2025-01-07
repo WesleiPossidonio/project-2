@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import styled, { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyled = createGlobalStyle`
 
@@ -7,7 +7,6 @@ export const GlobalStyled = createGlobalStyle`
   padding: 0;
   box-sizing: border-box;
   outline: 0;   
-  font-family: "Playwrite CO Guides", serif;
   text-decoration: none;
 }
 
@@ -23,4 +22,9 @@ html {
 main {
   width: 100%;
 }
+`
+export const MainProject = styled.main`
+width: 100%;
+height: auto;
+
 `
