@@ -30,6 +30,7 @@ align-self: flex-end;
 font-size: ${({ theme }) => theme.FontSizes["text-regular-sm"]};
 color: ${({ theme }) => theme.colors["base-text"]};
 font-family: "Playwrite CO Guides", serif;
+cursor: pointer;
 `
 
 export const ContainerText = styled.div`
