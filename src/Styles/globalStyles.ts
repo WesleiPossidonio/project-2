@@ -10,8 +10,6 @@ export const GlobalStyled = createGlobalStyle`
   text-decoration: none;
 }
 
-
-
 html {
   scroll-behavior: smooth;
   @media (max-width: 1024px) {

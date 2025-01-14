@@ -5,11 +5,13 @@ import { useNavigate } from 'react-router-dom'
 
 export const MainSection = () => {
 
+  const date = new Date
+
   const navigate = useNavigate()
   return (
     <ContainerMainSection>
       <Header>
-        <Text>08/09/2024</Text>
+        <Text>{date.toLocaleDateString()}</Text>
         <LinkNav onClick={() => navigate('/')}>Voltar</LinkNav>
       </Header>
 
