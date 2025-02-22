@@ -42,7 +42,7 @@ justify-content: center;
 gap: 1rem;
 
 margin-top: 2rem;
-margin-bottom: -4.6rem;
+/* margin-bottom: -4.6rem; */
 
 `
 
